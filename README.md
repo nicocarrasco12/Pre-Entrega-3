@@ -50,7 +50,7 @@ node server.js
 
 ```
 
-## Endpoints de la API
+## Endpoints
 
 ### Contenido
 
