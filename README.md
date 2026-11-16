@@ -37,8 +37,8 @@ El sistema se diseñó bajo un modelo relacional en MySQL compuesto por 6 tablas
 ## Configuración y Ejecución Local
 1. Clonar el repositorio en tu computadora.
 2. Instalar las dependencias del proyecto ejecutando en la terminal:
-   ```bash
-   npm install
+```bash
+npm install
 
 ```
 
