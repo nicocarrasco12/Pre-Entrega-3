@@ -1,4 +1,3 @@
-```markdown
 # Trailerflix
 
 ## Sumario
@@ -91,5 +90,3 @@ node server.js
 | **POST** | `/actores` | Da de alta un nuevo actor. |
 | **PUT** | `/actores/:id` | Actualiza los datos de un actor por su ID. |
 | **DELETE** | `/actores/:id` | Elimina un actor utilizando su ID. |
-
-```
