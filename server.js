@@ -132,7 +132,6 @@ app.get('/categorias/:nombre', async (req, res) => {
             return res.status(400).json({ error: 'El nombre de la categoría debe ser texto, no un número.' });
         }
 
-        // 1. Buscamos la categoría de forma parcial (ej: "serie" coincide con "Series" o "Serie")
         const [categorias] = await sequelize.query(
             'SELECT * FROM categorías WHERE nombre LIKE :nombreBusqueda',
             { replacements: { nombreBusqueda: `%${nombre}%` } }
@@ -142,12 +141,11 @@ app.get('/categorias/:nombre', async (req, res) => {
             return res.status(404).json({ error: `No se encontró la categoría '${nombre}'.` });
         }
 
-        // 2. Traemos todo el contenido vinculado a esa(s) categoría(s) encontrada(s)
         const resultadoFinal = [];
         for (const cat of categorias) {
             const [contenidos] = await sequelize.query(
                 'SELECT * FROM contenido WHERE id_categoria = :idCat',
-                { replacements: { idCat: cat.id_categoría } } // Usando la FK id_categoría de tu tabla[cite: 5]
+                { replacements: { idCat: cat.id_categoría } }
             );
 
             resultadoFinal.push({
