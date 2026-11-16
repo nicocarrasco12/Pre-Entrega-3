@@ -1,3 +1,10 @@
+-- Creación de la Base de Datos "Trailerflix", en caso de existir la borra y reemplaza´
+
+DROP DATABASE IF EXISTS trailerflix;
+CREATE DATABASE trailerflix
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
+
 -- Creación de tablas mediante el SQL DDL otorgado por DB Designer
 
 CREATE TABLE IF NOT EXISTS `categorías` (
@@ -103,7 +110,8 @@ INSERT INTO `actores` (`id_actor`, `nombre_actor`) VALUES
 (121, 'Steve Carell'), (122, 'Rainn Wilson'), (123, 'John Krasinski'), (124, 'Jenna Fischer'), (125, 'Ed Helms'),
 (126, 'Matthew McConaughey'), (127, 'Anne Hathaway'), (128, 'Michael Caine'),
 (129, 'Margot Robbie'), (130, 'Ryan Gosling'), (131, 'America Ferrera'), (132, 'Kate McKinnon'),
-(133, 'Louis Hofmann'), (134, 'Lisa Vicari'), (135, 'Oliver Masucci'), (136, 'Jördis Triebel'), (137, 'Maja Schöne');
+(133, 'Louis Hofmann'), (134, 'Lisa Vicari'), (135, 'Oliver Masucci'), (136, 'Jördis Triebel'), (137, 'Maja Schöne'), (138, 'Bryan Cranston'),
+(139, 'Aaron Paul');
 
 -- 4. Insertar Contenidos
 
