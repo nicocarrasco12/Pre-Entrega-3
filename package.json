@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1"
+  },
+  "name": "pre-entrega-3",
+  "version": "1.0.0",
+  "description": "API REST desarrollada en **Node.js** y **Express** utilizando **Sequelize ORM** para la conexión con una base de datos relacional **MySQL**. El proyecto simula un catálogo de películas y series basado en el modelo de Trailerflix, cumpliendo con la normalización de bases de datos y la creación de un CRUD completo para sus entidades principales.",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
