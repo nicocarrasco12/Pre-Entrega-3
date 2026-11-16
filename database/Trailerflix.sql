@@ -1,9 +1,13 @@
--- Creación de la Base de Datos "Trailerflix", en caso de existir la borra y reemplaza´
+-- Creación de la Base de Datos "Trailerflix", en caso de existir la borra y reemplaza
 
 DROP DATABASE IF EXISTS trailerflix;
 CREATE DATABASE trailerflix
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
+
+-- Seleccionamos la base de datos trailerflix para empezar a trabajar con ella
+
+USE trailerflix;
 
 -- Creación de tablas mediante el SQL DDL otorgado por DB Designer
 
