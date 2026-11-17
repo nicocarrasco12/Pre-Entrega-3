@@ -1,12 +1,12 @@
 # Trailerflix
 
 ## Sumario
-- [Descripción y Origen del Dataset](#-descripción-y-origen-del-dataset)
-- [Objetivo del Proyecto](#-objetivo-del-proyecto)
-- [Modelo de Datos](#-modelo-de-datos)
-- [Librerías y Tecnologías](#️-librerías-y-tecnologías)
-- [Configuración y Ejecución Local](#️-configuración-y-ejecución-local)
-- [Endpoints](#-endpoints)
+- [Descripción y Origen del Dataset](#descripción-y-origen-del-dataset)
+- [Objetivo del Proyecto](#objetivo-del-proyecto)
+- [Modelo de Datos](#modelo-de-datos)
+- [Librerías y Tecnologías](#️librerías-y-tecnologías)
+- [Configuración y Ejecución Local](#️configuración-y-ejecución-local)
+- [Endpoints](#endpoints)
 
 
 ## Descripción y Origen del Dataset
